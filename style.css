@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.showcase{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(./cat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about{
+    height: 50vh;
+    width: 100vw ;
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about h1{
+    margin-bottom: 1rem;
+}
+
+.suga-name{
+    font-size: 12rem;
+    color: white;
+}
+.suga-desc{
+    font-size: 4rem;
+    text-align: center;
+    color: wheat;
+}
+
+.meals{
+    width: 100vw;
+    padding: 2rem;
+
+    background-color: #e3e6f1;
+
+
+}
+.meals h1{
+    text-align: center;
+}
+
+.meals-images{
+    display: flex;
+    margin-bottom: 1rem;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.meals-image{
+    width: 300px;
+    margin: 2rem;
+}
+
+.meals-image-section{
+    padding: 1rem;
+    background-color: bisque;
+    margin: 1rem;
+}
